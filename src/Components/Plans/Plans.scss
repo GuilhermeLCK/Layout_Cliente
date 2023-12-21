@@ -1,0 +1,148 @@
+.container-Plans {
+  width: 100%;
+  padding-block: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  @media screen and (max-width: 1250px) {
+    padding-block: 40px;
+  }
+
+  h1 {
+    color: #fff;
+    text-align: center;
+  }
+  .span-liner {
+    width: 15%;
+    height: 5px;
+    background-color: #9d0815;
+    margin: 25px 0;
+
+    @media screen and (max-width: 769px) {
+      width: 30%;
+    }
+  }
+
+  a {
+    margin-top: 25px;
+    z-index: 99;
+    display: flex;
+    width: 350px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #9d0815;
+    transition: 0.4s;
+
+    &:hover {
+      background-color: #000000;
+      color: #ffffff;
+      transition: 0.2s;
+    }
+
+    @media screen and (max-width: 769px) {
+      width: 330px;
+    }
+  }
+}
+
+.container-Plans-sections {
+  width: 100%;
+  padding-block: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+
+  @media screen and (max-width: 769px) {
+    flex-direction: column;
+  }
+}
+
+.container-Plans-section {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: transparent;
+  padding: 0px 0px 20px 0px;
+  border-radius: 2px;
+  border: 1px solid rgba(255, 255, 255, 0.233);
+  min-height: 420px;
+
+  @media screen and (max-width: 1350px) {
+    flex: 1;
+  }
+
+  @media screen and (max-width: 769px) {
+    width: 100%;
+  }
+
+  h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-block: 20px;
+    span {
+      font-size: 25px;
+    }
+  }
+
+  .trainer-tag {
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    padding-block: 5px;
+    font-size: 25px;
+    font-weight: 300;
+    background-color: #000000;
+    margin-bottom: 20px;
+  }
+
+  .trainer-plans {
+    text-align: center;
+    width: 70%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    border-bottom: 2px solid #ffffff8e;
+    padding-block: 5px;
+    border-radius: 1px;
+    margin-bottom: 7px;
+  }
+
+  .off {
+    border-bottom: 2px solid #ffffff1f;
+    color: #ffffff1f;
+  }
+}
+
+.updonw {
+  transform: translate(0px, -40px);
+  box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.5);
+  border: 2px solid #fff;
+  @media screen and (max-width: 769px) {
+    transform: translate(0px, 0px);
+  }
+
+  .trainer-tag {
+    color: #000;
+    background-color: #9d0815;
+  }
+}

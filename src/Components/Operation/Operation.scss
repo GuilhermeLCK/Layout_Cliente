@@ -1,0 +1,70 @@
+.container-Operation {
+  width: 100%;
+  padding-block: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  @media screen and (max-width: 1250px) {
+    padding-block: 40px;
+  }
+
+  h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff;
+  }
+
+  p {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-block: 10px;
+  }
+
+  h2 {
+    font-weight: 500;
+    color: #fff;
+    line-height: 30px;
+    padding-block: 15px;
+    text-align: center;
+
+    span {
+      font-weight: 800;
+    }
+  }
+
+  a {
+    margin-top: 25px;
+    z-index: 99;
+    display: flex;
+    width: 400px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #000000;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #ffffff;
+    transition: 0.4s;
+
+    &:hover {
+      transition: 0.2s;
+    }
+
+    @media screen and (max-width: 769px) {
+      width: 330px;
+    }
+  }
+}
