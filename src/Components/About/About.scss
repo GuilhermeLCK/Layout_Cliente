@@ -12,7 +12,8 @@
 
 .content-About {
   width: 100%;
-  padding-block: 20px;
+  padding-top: 100px;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -29,6 +30,11 @@
     justify-content: center;
     flex-direction: column;
 
+    h1 {
+      line-height: 40px;
+      margin-bottom: 20px;
+    }
+
     @media screen and (max-width: 769px) {
       width: 98%;
     }
@@ -43,7 +49,7 @@
       line-height: normal;
 
       @media screen and (max-width: 769px) {
-        text-align: center;
+        text-align: start;
       }
     }
 
@@ -63,7 +69,7 @@
       font-size: 16px;
       font-weight: 700;
       line-height: normal;
-      background-color: #9d0815;
+      background-color: #62a3a5;
       transition: 0.4s;
       transform: translate(0px, 0px);
 
@@ -83,7 +89,7 @@
   .content-About-Logo {
     img {
       height: 360px;
-      width: 60%;
+      width: 100%;
       object-fit: contain;
       @media screen and (max-width: 769px) {
         width: 80%;

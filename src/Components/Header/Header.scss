@@ -21,8 +21,9 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     opacity: 0;
+
     filter: blur(5px);
     transition: opacity 0.5s ease-in-out, filter 0.5s ease-in-out;
     &.active {
@@ -56,7 +57,7 @@
     }
   }
 
-  button {
+  a {
     margin-top: 25px;
     z-index: 99;
     display: flex;
@@ -72,13 +73,13 @@
     font-size: 16px;
     font-weight: 700;
     line-height: normal;
-    background-color: #9d0815;
+    background-color: #62a3a5;
     transition: 0.4s;
     transform: translate(0px, 0px);
 
     &:hover {
       background-color: #ffff;
-      color: #9d0815;
+      color: #62a3a5;
       transition: 0.2s;
       transform: translate(0px, -5px);
     }

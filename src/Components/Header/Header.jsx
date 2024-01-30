@@ -2,14 +2,12 @@ import React, { useState, useEffect } from "react";
 import "./Header.scss";
 import Logo from "../../Img/Logo.svg";
 
-import b1 from "../../Img/Banner04.jpg";
-import b2 from "../../Img/Banner08.jpg";
-import b3 from "../../Img/Banner09.webp";
-import b4 from "../../Img/img_jj.jpeg";
+import b1 from "../../Img/treino.jpg";
 
+import b2 from "../../Img/treino1.png";
 function Header() {
   const [currentImage, setCurrentImage] = useState(0);
-  const images = [b1, b2, b4];
+  const images = [b1, b2];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -36,7 +34,7 @@ function Header() {
         DESAFIE SEUS <br />
         <span>LIMITES</span>
       </h2>
-      <button>QUERO COMEÇAR A TREINAR</button>
+      <a href="#Planos">QUERO COMEÇAR AGORA</a>
     </div>
   );
 }

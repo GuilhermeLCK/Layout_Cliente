@@ -51,7 +51,7 @@
     width: 80%;
     color: #ffff;
     text-align: center;
-    font-size: 40px;
+    font-size: 26px;
     font-weight: 800;
     letter-spacing: 2px;
     z-index: 99;
@@ -85,25 +85,33 @@
     0,
     0,
     0,
-    0.5
+    0.644
   ); /* Cor desejada (vermelho com 50% de opacidade) */
   mix-blend-mode: multiply; /* Mistura para aplicar a cor na imagem */
   border-radius: 15px; /* Mantém o mesmo formato do elemento pai */
   transition: 0.4s; /* Transição para suavizar a mudança */
 }
-
-.jiu {
-  background-image: url("../../Img/jiu.png");
+.content-Modalities-section:hover::before {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.363
+  ); /* Cor ao passar o mouse (transparente) */
+  cursor: pointer;
+}
+.musculacao {
+  background-image: url("../../Img/Musculacao.webp");
 }
 
-.karate {
-  background-image: url("../../Img/karate.png");
+.funcional {
+  background-image: url("../../Img/funcional.jpg");
 }
 
-.boxe {
-  background-image: url("../../Img/box.png");
+.emagrecimento {
+  background-image: url("../../Img/emagrecimento.jpg");
 }
 
-.tay {
-  background-image: url("../../Img/muai.png");
+.mobilidade {
+  background-image: url("../../Img/modalidade.webp");
 }

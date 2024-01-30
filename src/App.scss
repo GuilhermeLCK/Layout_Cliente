@@ -4,6 +4,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+
   font-family: "Poppins";
 }
 
@@ -32,7 +34,7 @@ button {
     }
 
     span {
-      color: #9d0815;
+      color: #62a3a5;
       font-weight: 700;
     }
   }
@@ -69,18 +71,6 @@ button {
   justify-content: center;
   flex-direction: column;
   background-image: url("./Img/bg-planos.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: center;
-}
-
-.container-full-Operation {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background-image: url("./Img/bg-contato.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;

@@ -5,7 +5,7 @@ import "./Plans.scss";
 
 function Plans() {
   return (
-    <div className="container-Plans">
+    <div className="container-Plans" id="Planos">
       <h1>
         Conheça nossos <span>Planos</span>
       </h1>

@@ -29,10 +29,8 @@ function App() {
             </div>
           </div>
 
-          <div className="container-full-Operation">
-            <div className="container-mid">
-              <Operation />
-            </div>
+          <div className="container-mid">
+            <Operation />
           </div>
 
           <div className="container-full-Footer">
